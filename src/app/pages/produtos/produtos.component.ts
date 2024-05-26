@@ -73,7 +73,8 @@ produtos = [
     id: 10,
     nome: "Viceroy Hombre - Acero",
     preco: "259.90",
-    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-42311-07-real-madrid-acero-800x800.jpeg"
+    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-42311-07-real-madrid-acero-800x800.jpeg",
+    linkimagem: "hombreacero"
   },
   {
     id: 11, 

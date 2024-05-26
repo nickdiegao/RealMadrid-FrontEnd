@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './viceroyhombreacero.component.css'
 })
 export class ViceroyhombreaceroComponent {
+  tamanhoSelecionado: string = ''; 
 
+  selecionarTamanho(tamanho: string): void {
+    this.tamanhoSelecionado = tamanho;
+  }
 }
