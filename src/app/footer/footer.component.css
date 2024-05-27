@@ -1,9 +1,11 @@
-
 .footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: #00215E;
+    width: 196vh;
 }
 
 .titulo-atendimento {

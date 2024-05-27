@@ -20,6 +20,7 @@ import { CamaRealMadridComponent } from './paginas-produto/acessorios/cama-real-
 import { BonepretoComponent } from './paginas-produto/acessorios/bonepreto/bonepreto.component';
 import { MeiaoazulComponent } from './paginas-produto/acessorios/meiaoazul/meiaoazul.component';
 import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -42,7 +43,8 @@ const routes: Routes = [
   { path: 'cadetepreto', component: ViceroycadetepretoComponent},
   { path: 'camarealmadrid', component: CamaRealMadridComponent},
   { path: 'bonepreto', component: BonepretoComponent},
-  { path: 'meiaoazul', component: MeiaoazulComponent}
+  { path: 'meiaoazul', component: MeiaoazulComponent},
+  { path: 'cadastro', component: CadastroComponent}
 ];
 
 @NgModule({
