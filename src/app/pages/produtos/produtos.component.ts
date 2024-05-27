@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class ProdutosComponent {
 produtos = [
   {
-      id: 1,
-      nome: "Camisa Real Madrid 2010",
-      preco: "259.90",
-      imagem: "../../../assets/images/camisa do realmadrid 2010.jpg",
-      linkimagem: "/real2010"
+      id: 1, //Id do produto
+      nome: "Camisa Real Madrid 2010", //Nome do produto
+      preco: "259.90", //Preço do produto
+      imagem: "../../../assets/images/camisa do realmadrid 2010.jpg", //Caminho da imagem
+      linkimagem: "/real2010" 
   },
   {
       id: 2,
@@ -74,25 +74,49 @@ produtos = [
     nome: "Viceroy Hombre - Acero",
     preco: "259.90",
     imagem: "../../../assets/acessorios/reloj-viceroy-hombre-42311-07-real-madrid-acero-800x800.jpeg",
-    linkimagem: "hombreacero"
+    linkimagem: "/hombreacero"
   },
-  {
+  { //*
     id: 11, 
     nome: "Viceroy Cadete - Nylon Preto",
     preco: "259.90",
-    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-42307-57-real-madrid-nylon-negro-800x800.jpeg"
+    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-42307-57-real-madrid-nylon-negro-800x800.jpeg",
+    linkimagem: "cadetepreto"
   },
-  {
+  { //*
     id: 12,
     nome: "Viceroy Cadete - Nylon Azul",
     preco: "259.90",
-    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-40969-39-real-madrid-nylon-azul-800x800.jpeg"
+    imagem: "../../../assets/acessorios/reloj-viceroy-hombre-40969-39-real-madrid-nylon-azul-800x800.jpeg",
+    linkimagem: "cadeteazul"
   },
-  {
+  { //*
     id: 13,
     nome: "Viceroy Cadete - Acero",
     preco: "259.90",
-    imagem: "../../../assets/acessorios/reloj-viceroy-cadete-42300-07-real-madrid-acero-800x800.jpeg"
+    imagem: "../../../assets/acessorios/reloj-viceroy-cadete-42300-07-real-madrid-acero-800x800.jpeg",
+    linkimagem: "cadeteacero"
+  },
+  {
+    id: 14,
+    nome: "Acessório para cama Real Madrid",
+    preco: "240.90",
+    imagem: "../../../assets/acessorios/Acessorios-para-cama-Real-Madrid-Acessorios-para-a-cama-Real-Madrid-115466-l.jpg",
+    linkimagem: "camarealmadrid"
+  },
+  {
+    id: 15,
+    nome: "Boné Real Madrid preto",
+    preco: "250.90",
+    imagem: "../../../assets/acessorios/bone real madrid preto.webp",
+    linkimagem: "bonepreto"
+  },
+  {
+    id: 16,
+    nome: "Meião Azul Real Madrid",
+    preco: "233.30",
+    imagem: "../../../assets/acessorios/real_madrid_meiao_2022_uniforme_reserva_11429_1_ae250709af4c18032689805c46318244.webp",
+    linkimagem: "meiaoazul"
   }
 ];
 }

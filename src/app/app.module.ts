@@ -21,6 +21,10 @@ import { ViceroyhombreaceroComponent } from './paginas-produto/acessorios/vicero
 import { ViceroycadetepretoComponent } from './paginas-produto/acessorios/viceroycadetepreto/viceroycadetepreto.component';
 import { ViceroycadeteazulComponent } from './paginas-produto/acessorios/viceroycadeteazul/viceroycadeteazul.component';
 import { ViceroycadeteaceroComponent } from './paginas-produto/acessorios/viceroycadeteacero/viceroycadeteacero.component';
+import { CamaRealMadridComponent } from './paginas-produto/acessorios/cama-real-madrid/cama-real-madrid.component';
+import { BonepretoComponent } from './paginas-produto/acessorios/bonepreto/bonepreto.component';
+import { MeiaoazulComponent } from './paginas-produto/acessorios/meiaoazul/meiaoazul.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { ViceroycadeteaceroComponent } from './paginas-produto/acessorios/vicero
     ViceroyhombreaceroComponent,
     ViceroycadetepretoComponent,
     ViceroycadeteazulComponent,
-    ViceroycadeteaceroComponent
+    ViceroycadeteaceroComponent,
+    CamaRealMadridComponent,
+    BonepretoComponent,
+    MeiaoazulComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,

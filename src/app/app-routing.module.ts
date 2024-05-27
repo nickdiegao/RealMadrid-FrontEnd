@@ -16,11 +16,16 @@ import { ViceroyhombreaceroComponent } from './paginas-produto/acessorios/vicero
 import { ViceroycadeteaceroComponent } from './paginas-produto/acessorios/viceroycadeteacero/viceroycadeteacero.component';
 import { ViceroycadeteazulComponent } from './paginas-produto/acessorios/viceroycadeteazul/viceroycadeteazul.component';
 import { ViceroycadetepretoComponent } from './paginas-produto/acessorios/viceroycadetepreto/viceroycadetepreto.component';
+import { CamaRealMadridComponent } from './paginas-produto/acessorios/cama-real-madrid/cama-real-madrid.component';
+import { BonepretoComponent } from './paginas-produto/acessorios/bonepreto/bonepreto.component';
+import { MeiaoazulComponent } from './paginas-produto/acessorios/meiaoazul/meiaoazul.component';
+import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent},
   { path: 'produtos', component: ProdutosComponent},
+  { path: 'carrinho', component: CarrinhoComponent},
   { path: 'contato', component: ContatoComponent},
   { path: 'real2010', component: CamisaReal2010Component},
   { path: 'real2011', component: CamisaReal2011Component},
@@ -35,6 +40,9 @@ const routes: Routes = [
   { path: 'cadeteacero', component: ViceroycadeteaceroComponent},
   { path: 'cadeteazul', component: ViceroycadeteazulComponent},
   { path: 'cadetepreto', component: ViceroycadetepretoComponent},
+  { path: 'camarealmadrid', component: CamaRealMadridComponent},
+  { path: 'bonepreto', component: BonepretoComponent},
+  { path: 'meiaoazul', component: MeiaoazulComponent}
 ];
 
 @NgModule({

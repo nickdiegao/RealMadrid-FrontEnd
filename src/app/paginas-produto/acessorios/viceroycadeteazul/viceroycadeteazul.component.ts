@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './viceroycadeteazul.component.css'
 })
 export class ViceroycadeteazulComponent {
+  tamanhoSelecionado: string = ''; 
 
+  selecionarTamanho(tamanho: string): void {
+    this.tamanhoSelecionado = tamanho;
+  }
 }

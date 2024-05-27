@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-viceroycadeteacero',
-  templateUrl: './viceroycadeteacero.component.html',
-  styleUrl: './viceroycadeteacero.component.css'
+  selector: 'app-cama-real-madrid',
+  templateUrl: './cama-real-madrid.component.html',
+  styleUrl: './cama-real-madrid.component.css'
 })
-export class ViceroycadeteaceroComponent {
+export class CamaRealMadridComponent {
   tamanhoSelecionado: string = ''; 
 
   selecionarTamanho(tamanho: string): void {
