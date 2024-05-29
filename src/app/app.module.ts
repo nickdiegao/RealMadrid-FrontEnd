@@ -26,6 +26,7 @@ import { BonepretoComponent } from './paginas-produto/acessorios/bonepreto/bonep
 import { MeiaoazulComponent } from './paginas-produto/acessorios/meiaoazul/meiaoazul.component';
 import { CarrinhoComponent } from './pages/carrinho/carrinho.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
